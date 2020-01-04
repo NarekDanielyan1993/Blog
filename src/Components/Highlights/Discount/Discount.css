@@ -6,11 +6,11 @@
 
 .Discount_description {
     padding: 0 10px;
-    flex: 1;
+    width: 600px;
 }
 
 .Discount_percentage {
-    flex-grow: 300px;
+    width: 300px;
     text-align: center;
 }
 
