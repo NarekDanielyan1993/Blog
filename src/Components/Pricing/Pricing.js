@@ -17,7 +17,7 @@ class Pricing extends Component {
                 the fewer seats are left available.`,
                 `The star seats are started from 250 dollars.`
             ],
-       link: ["google.com", "haypost.am", "vlad.com"],
+       link: ["#", "#", "#"],
        delay: [500, 0, 500]
     }
 

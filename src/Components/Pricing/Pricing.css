@@ -63,7 +63,7 @@
 
 @media (max-width: 650px) {
     .Pricing_content .Pricing_item {
-        flex-basis: 51%;
+        flex-basis: 330px;
     }
 
     .Pricing_content .Pricing_item:nth-child(1) {
