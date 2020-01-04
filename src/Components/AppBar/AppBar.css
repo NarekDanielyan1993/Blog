@@ -1,0 +1,11 @@
+.AppBar {
+    width: 100%;
+    position: fixed;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    z-index: 1000;
+    transition: all 0.3s ease-in;
+    box-sizing: border-box;
+}
+

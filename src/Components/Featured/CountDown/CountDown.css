@@ -1,0 +1,37 @@
+.CountDown {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+.CountDown_top {
+    display: inline-block;
+    background-color: red;
+    padding: 10px 20px;
+}
+
+.CountDown_bottom {
+    display: flex;
+    background-color: red;
+}
+
+.CountDown_item {
+    padding: 30px;
+    font-size: 3vw;
+} 
+
+.CountDown_tag {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+
+@media screen and (max-width : 760px) {
+
+}
+

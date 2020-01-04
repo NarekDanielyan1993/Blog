@@ -1,0 +1,36 @@
+.MenuIconClose div, .MenuIconOpen  div {
+    width: 35px;
+    height: 5px;
+    background-color: blue;
+    margin: 6px 0;
+    transition: all 0.1s ease-in;
+}
+
+.MenuIcon {
+    margin: 6px;
+    cursor: pointer;
+}
+
+.MenuIconClose div:nth-child(1) {
+    transform: rotate(-45deg) translate(-12px, 7px);
+}
+
+.MenuIconClose div:nth-child(2) {
+    opacity: 0;
+}
+  
+.MenuIconClose div:nth-child(3) {
+    transform: rotate(45deg) translate(-8px,-2px);
+}
+
+.MenuIconOpen div:nth-child(1) {
+    transform: rotate(0) ;
+}
+
+.MenuIconOpen div:nth-child(2) {
+    opacity: 1;
+}
+  
+.MenuIconOpen div:nth-child(3) {
+    transform: rotate(0) ;
+}

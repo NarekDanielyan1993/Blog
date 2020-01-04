@@ -1,0 +1,72 @@
+.Pricing_wrraper {
+    padding: 70px 0;
+    background-color: rgb(43, 40, 40);
+    text-align: center;
+
+}
+
+.Pricing_title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px; 
+    color: white;   
+}
+
+.Pricing_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+
+.Pricing_item {
+    flex-basis: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(235, 168, 14);
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.Pricing_item .place_price {
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(231, 209, 10);
+    color: white!important;
+}
+
+.Pricing_item .place_price p {
+    font-size: 40px;
+    font-weight: 300;
+    color: white!important;
+}
+
+.Pricing_item .text {
+    color: #b8b8b8;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 20px 0px;
+    min-height: 200px;
+}
+
+.Pricing_item:last-child {
+    margin-right: 0;
+    
+}
+
+@media (max-width: 960px) {
+    .Pricing_content .Pricing_item:nth-last-child(2) {
+        margin-right: 0;   
+    }
+}
+
+@media (max-width: 650px) {
+    .Pricing_content .Pricing_item {
+        flex-basis: 51%;
+    }
+
+    .Pricing_content .Pricing_item:nth-child(1) {
+        margin-right: 0;
+    }
+}
