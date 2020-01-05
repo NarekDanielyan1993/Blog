@@ -8,7 +8,7 @@ import "./Featured.css";
 
 function Featured() {
     return (
-        <div>
+        <div className="Featured">
             <Carrousel />
             <div className="Name">
                 <p>Arianna</p> 

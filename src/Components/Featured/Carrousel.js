@@ -16,7 +16,7 @@ function Carrousel() {
       };
 
     return (
-        <div style={{height: `${window.innerHeight}px`, overflow: "hidden"}}>
+        <div style={{height: `100%`, overflow: "hidden"}}>
             <Slider {...settings}>
                <div> 
                    <div  style={{
