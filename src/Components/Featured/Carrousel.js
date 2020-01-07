@@ -16,12 +16,12 @@ function Carrousel() {
       };
 
     return (
-        <div style={{overflow: `hidden`}}>
+        <div style={{overflow: `hidden`, height: `${window.innerHeight}px`}}>
             <Slider {...settings}>
                <div> 
                    <div  style={{
                        backgroundImage: `url(${slide_one})`, 
-                       height: `100vh`,
+                       height: `${window.innerHeight}px`,
                        backgroundSize: `100% 100%`,
                        backgroundRepeat: "no-repeat",
                        backgroundPosition: `center`}}>
@@ -30,7 +30,7 @@ function Carrousel() {
                 <div> 
                    <div style={{
                        backgroundImage: `url(${slide_two})`, 
-                       height: `100vh`,
+                       height: `${window.innerHeight}px`,
                        backgroundSize: `100% 100%`,
                        backgroundRepeat: "no-repeat" }}>
                    </div>
@@ -38,7 +38,7 @@ function Carrousel() {
                 <div> 
                    <div style={{
                        backgroundImage: `url(${slide_three})`, 
-                       height: `100vh`,
+                       height: `${window.innerHeight}px`,
                        backgroundSize: `100% 100%`,
                        backgroundRepeat: "no-repeat" }}>
                    </div>

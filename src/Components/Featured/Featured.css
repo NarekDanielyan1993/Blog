@@ -1,8 +1,7 @@
 .Featured {
     position: relative;
     width: 100%;
-    height: 100vh;
-    min-height: -webkit-fill-available;
+    height: 100%;
 }
 
 .Name {

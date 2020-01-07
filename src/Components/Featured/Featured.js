@@ -1,5 +1,4 @@
 import React from 'react';
-import Div100vh from 'react-div-100vh';
 
 
 import Carrousel from "./Carrousel";
@@ -9,14 +8,14 @@ import "./Featured.css";
 
 function Featured() {
     return (
-        <Div100vh className="Featured">
+        <div className="Featured">
             <Carrousel />
             <div className="Name">
                 <p>Arianna</p> 
                 <p>grande</p>
             </div>
             <CountDown />
-        </Div100vh>
+        </div>
     )
 }
 
