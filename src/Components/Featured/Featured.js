@@ -9,15 +9,13 @@ import "./Featured.css";
 
 function Featured() {
     return (
-        <Div100vh>
-            <div className="Featured">
-                <Carrousel />
-                <div className="Name">
-                    <p>Arianna</p> 
-                    <p>grande</p>
-                </div>
-                <CountDown />
+        <Div100vh className="Featured">
+            <Carrousel />
+            <div className="Name">
+                <p>Arianna</p> 
+                <p>grande</p>
             </div>
+            <CountDown />
         </Div100vh>
     )
 }
