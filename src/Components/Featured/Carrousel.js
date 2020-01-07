@@ -21,7 +21,7 @@ function Carrousel() {
                <div> 
                    <div  style={{
                        backgroundImage: `url(${slide_one})`, 
-                       height: `100%`,
+                       height: `${window.innerHeight}px`,
                        backgroundSize: `100% 100%`,
                        backgroundRepeat: "no-repeat",
                        backgroundPosition: `center`}}>
@@ -30,7 +30,7 @@ function Carrousel() {
                 <div> 
                    <div style={{
                        backgroundImage: `url(${slide_two})`, 
-                       height: `100%`,
+                       height: `${window.innerHeight}px`,
                        backgroundSize: `100% 100%`,
                        backgroundRepeat: "no-repeat" }}>
                    </div>
@@ -38,7 +38,7 @@ function Carrousel() {
                 <div> 
                    <div style={{
                        backgroundImage: `url(${slide_three})`, 
-                       height: `100%`,
+                       height: `${window.innerHeight}px`,
                        backgroundSize: `100% 100%`,
                        backgroundRepeat: "no-repeat" }}>
                    </div>
