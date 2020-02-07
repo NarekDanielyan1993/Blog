@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import Fade from 'react-reveal/Fade'
-
 import "./CountDown.css";
 
 export default class CountDown extends Component {
@@ -22,10 +20,7 @@ export default class CountDown extends Component {
             let hours =  Math.floor((time/(1000*60*60))%24);
             let days = Math.floor((time/(1000*60*60*24)));
             this.setState({seconds, minutes, hours, days});
-        } else {
-            
         }
-        
     }
 
     componentDidMount() {
@@ -34,7 +29,6 @@ export default class CountDown extends Component {
 
     render() {
         return (
-            
                 <div className="CountDown">
                     <div className="CountDown_top">
                         <p>Events start in</p>
@@ -74,7 +68,6 @@ export default class CountDown extends Component {
                         </div>
                     </div>
                 </div>
-           
         )
     }
 }

@@ -6,7 +6,7 @@ function Logo() {
     return (
         <div>
             <p className="logo_venue">The Venue</p>
-            <p className={"logo_title"}>Musical Instruments</p>
+            <p className="logo_title">Musical Instruments</p>
         </div>
     )
 }

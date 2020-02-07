@@ -20,9 +20,9 @@ export default class AppBar extends Component {
 
     onScrollHandler = () => {
         if(window.scrollY > 0) {
-            this.setState({isNavBackgroundColorShown: true})
-        } else {
             this.setState({isNavBackgroundColorShown: false})
+        } else {
+            this.setState({isNavBackgroundColorShown: true})
         }
     }
 

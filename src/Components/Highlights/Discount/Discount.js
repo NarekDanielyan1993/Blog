@@ -12,8 +12,6 @@ export default class Discount extends Component {
         discount_max: 23
     }
 
- 
-    
     showMaxDiscount = () => {
         if(this.state.discount < this.state.discount_max) {
             this.setState((PrevState => {

@@ -6,6 +6,7 @@ header {
 .logo {
     flex-grow: 1;
 }
+
 .logo_venue {
     font-size: 15px;
 }

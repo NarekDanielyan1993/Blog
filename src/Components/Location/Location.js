@@ -9,7 +9,8 @@ export default function Location() {
                     width="100%" 
                     height="550" 
                     frameBorder="0"
-                    allowFullScreen="">
+                    allowFullScreen=""
+                    title="Location">
             </iframe>
             <div className="Location_tag">Location</div>
         </div>

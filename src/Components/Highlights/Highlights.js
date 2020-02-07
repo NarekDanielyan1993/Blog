@@ -5,7 +5,6 @@ import Discount from "../Highlights/Discount/Discount";
 
 import "../Highlights/HIghlights.css";
 
-
 export default class Highlights extends Component {
     render() {
         return (
